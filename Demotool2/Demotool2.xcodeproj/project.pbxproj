@@ -14,6 +14,8 @@
 		CAA6B42E22EEB0DA004C35C5 /* Demotool2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6B42D22EEB0DA004C35C5 /* Demotool2Tests.swift */; };
 		CAA6B43922EEB0DA004C35C5 /* Demotool2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6B43822EEB0DA004C35C5 /* Demotool2UITests.swift */; };
 		CAA6B44722EEB0FC004C35C5 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6B44622EEB0FC004C35C5 /* AudioPlayerViewController.swift */; };
+		CAB89F8322F035A70052980C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB89F8222F035A70052980C /* CollectionViewController.swift */; };
+		CAB89F8522F046300052980C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB89F8422F046300052980C /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CAA6B43822EEB0DA004C35C5 /* Demotool2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demotool2UITests.swift; sourceTree = "<group>"; };
 		CAA6B43A22EEB0DA004C35C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAA6B44622EEB0FC004C35C5 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
+		CAB89F8222F035A70052980C /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CAB89F8422F046300052980C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				CAA6B41822EEB0D8004C35C5 /* AppDelegate.swift */,
 				CAA6B44622EEB0FC004C35C5 /* AudioPlayerViewController.swift */,
+				CAB89F8222F035A70052980C /* CollectionViewController.swift */,
+				CAB89F8422F046300052980C /* CollectionViewCell.swift */,
 				CAA6B41C22EEB0D8004C35C5 /* Main.storyboard */,
 				CAA6B41F22EEB0D9004C35C5 /* Assets.xcassets */,
 				CAA6B42122EEB0D9004C35C5 /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB89F8322F035A70052980C /* CollectionViewController.swift in Sources */,
 				CAA6B41922EEB0D8004C35C5 /* AppDelegate.swift in Sources */,
+				CAB89F8522F046300052980C /* CollectionViewCell.swift in Sources */,
 				CAA6B44722EEB0FC004C35C5 /* AudioPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
